@@ -38,7 +38,7 @@ $(window).scroll(function () {
       //Al llegar al pie de la pagina se ejecuta
       $(".menu").css({ "box-shadow": "0px 2px 10px" });
     } else {
-      $(".menu").css({ "box-shadow": "0px 0px 0px" });
+      $(".menu").css({ "box-shadow": "0px 2px 10px" });
     }
   });
   
