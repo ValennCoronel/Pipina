@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,400;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Noto+Sans+Display:ital,wght@0,400;0,600;1,400&family=Permanent+Marker&display=swap");
 *,
 *:before,
 *:after {
@@ -12,7 +12,7 @@
 /* SASS */
 /* MENU */
 body {
-  background-color: white;
+  background-image: url(../assets/bg1.jpg);
   font-family: 'Noto Sans Display', sans-serif;
 }
 
@@ -115,10 +115,10 @@ ul.show {
   text-align: center;
   font-size: 65px;
   margin-bottom: 20px;
-  font-family: 'Noto Sans Display', sans-serif;
+  font-family: 'Fugaz One', cursive;
   padding-bottom: 10px;
   background-image: url(../assets/txtbg.png);
-  background-size: 79%;
+  background-size: 85%;
   background-repeat: no-repeat;
   background-position: center center;
   height: 180px;
@@ -135,6 +135,8 @@ ul.show {
 
 .txt_pipina span {
   font-weight: 600;
+  font-size: 25px;
+  margin-top: 5px;
 }
 
 .txt_pipina p {
@@ -193,6 +195,11 @@ ul.show {
   font-size: 30px;
 }
 
+#soluciones p span {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
 .bold {
   padding: 20px;
   font-weight: 600;
@@ -221,6 +228,34 @@ ul.show {
       justify-content: space-around;
 }
 
+.onda {
+  background-image: url(../assets/onda.png);
+  width: 100%;
+  height: 70px;
+  background-position: center;
+}
+
+.onda2 {
+  background-image: url(../assets/onda2.png);
+  width: 100%;
+  height: 70px;
+  background-position: center;
+}
+
+.onda3 {
+  background-image: url(../assets/onda3.png);
+  width: 100%;
+  height: 50px;
+  background-position: center;
+}
+
+.onda4 {
+  background-image: url(../assets/onda4.png);
+  width: 100%;
+  height: 100px;
+  background-position: center center;
+}
+
 /* MODO DE USO */
 #mododeuso {
   padding: 50px 80px;
@@ -230,61 +265,74 @@ ul.show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 40px;
 }
 
-.icono_pasos i {
-  color: black;
-  font-size: 30px;
-  margin-left: 30px;
-  float: left;
-}
-
-.icono_pasos p {
-  color: black;
-  font-size: 25px;
-  padding: 0 25px;
-}
-
 #mododeuso h3 {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  padding: 10px;
   text-align: center;
-  font-size: 35px;
-  margin-bottom: 50px;
+  font-size: 45px;
+  font-family: 'Fugaz One', cursive;
+  width: 350px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 15px black;
+          box-shadow: 3px 3px 15px black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #mododeuso img {
-  height: 300px;
+  height: 250px;
   display: block;
   margin: 0 auto;
 }
 
-.img_pasos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.pasos {
+  width: 40%;
+  height: 350px;
+  background-color: #15b3da;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 5px 2px 10px black;
+          box-shadow: 5px 2px 10px black;
 }
 
-.pasos {
-  width: 50%;
+.pasos p {
+  color: black;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 25px;
 }
 
 /* PERSONAS */
 #personas {
-  height: 730px;
-  background-color: #b5f3ff;
+  height: 900px;
+  background-color: #15b3da;
+  padding-top: 50px;
 }
 
 #personas h3 {
-  font-size: 30px;
+  padding-top: 100px;
+  margin-bottom: 70px;
+  padding: 10px;
   text-align: center;
-  padding: 30px;
-  margin-bottom: 10px;
+  font-size: 40px;
+  font-family: 'Fugaz One', cursive;
+  width: 450px;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 15px black;
+          box-shadow: 3px 3px 15px black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* SLIDER PERSONAS */
@@ -315,19 +363,30 @@ ul.show {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
   transition: transform 0.4s ease, -webkit-transform 0.4s ease;
-  background-color: gray;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding: 40px;
+}
+
+#slider label div {
+  width: 50%;
 }
 
 #slider label h4 {
   text-align: center;
   font-size: 30px;
+  font-family: 'Fugaz One', cursive;
+}
+
+#slider img {
+  height: 100%;
 }
 
 #slider label p {
