@@ -95,7 +95,7 @@
     </section> -->
 
     <section class="info">
-      <p>Qué es</p>
+      <p class="subtitulo">Qué es</p>
       <h2>Pipina</h2>
 
       <div class="info-col">
@@ -109,11 +109,15 @@
             como en el bolsillo o billetera. Pipina llego para salvarte el dia. Ir al baño ahora es mas facil, rapido e higienico! 
           </p>
           </div>
+          <div class="info-img">
           <img src="assets/personas.jpg" alt="pipina">
+          </div>
         </div>
 
         <div class="info-row">
+          <div class="info-img">
           <img src="assets/personas.jpg" alt="pipina">
+          </div>
           <div class="info-txt">
           <h3>Ventajas al usar Pipina</h3>
           <span class="info-span"><p>Olvidate de los momentos incomodos, dolores y enfermedades</p></span>
@@ -137,7 +141,7 @@
     <!-- INICIO USO -->
     <section id="mododeuso">
       <div class="mododeuso_tit">
-        <p>Modo de uso</p>
+        <p class="subtitulo">Modo de uso</p>
         <h2>Pasos a seguir</h2>
       </div>
       <div class="pasosaseguir-col">
@@ -152,33 +156,26 @@
 
         <div class="pasos">
           <div class="icono_pasos">
-             <p>2. Colocarlo en los genitales</p>
+             <p>2. Colocarlo en los genitales y orinar</p>
           </div>
           <div class="imagen_pasos">
             <img src="assets/paso2.png" alt="paso 2" />
           </div>
         </div>
+
+        <div class="pasos">
+        <div class="icono_pasos">
+          <p>3. Desechar pipina e higienizarse</p>
       </div>
+      <div class="imagen_pasos">
+        <img src="assets/paso4.png" alt="paso 4" />
+      </div>
+    </div>
 
-      <div class="pasosaseguir-col">
-        <div class="pasos">
-          <div class="icono_pasos">
-              <p>3. orinar apuntando hacia un lugar apto </p>
-          </div>
-          <div class="imagen_pasos">
-            <img src="assets/paso3.png" alt="paso3" />
-          </div>
-        </div>
-
-        <div class="pasos">
-          <div class="icono_pasos">
-              <p>4.Desechar pipina e higienizarse</p>
-          </div>
-          <div class="imagen_pasos">
-            <img src="assets/paso4.png" alt="paso 4" />
-          </div>
       </div>
     </section>
+
+<!-- PERSONAS -->
 
     <section id="personas">
       <div class="personas_tit">
@@ -305,46 +302,66 @@
         <p>Contacto</p>
         <h2>Estamos a su servicio!</h2>
       </div>
-      <div class="flex-container">
+      <div class="contacto-flex-container">
         <div class="formulario">
           <form action="">
             <h4>Envianos un mail!</h4>
+            <label for="nombre">Nombre y apellido</label>
             <input type="text" placeholder="Nombre" id="nombre"/>
+            <label for="email">Email</label>
             <input type="email" placeholder="Email" id="email"/>
-            <br>
+            <label for="asunto">Asunto</label>
             <input type="text" placeholder="Asunto" id="asunto"/>
-            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea> <br>
-            <input type="submit" placeholder="Enviar" id="submit"/>
+            <label for="nombre">Mensaje</label>
+            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea> 
+            <input type="submit"  id="submit"/>
           </form>
         </div>
 
         <div class="redes">
-          <div class="whatsapp">
-            <div>
-            <h4>Celular</h4>
-            <p><i class="fa-solid fa-phone"></i> 1123922805</p>
+        
+          <div class="redes-row">
+
+          <div class="celular">
+            <p> <a href="#"> <i class="fa-solid fa-phone logo"></i> </a> </p>
+             <h4><a href="#"> TELEFONO:</a></h4>
+             <p><a href="#"> +54 (011) 3282-9675 </a> 
+              <a href="#"><span><i class="fa-regular fa-copy"></i></span> </a> 
+            </p>
           </div>
-          <div class="btn_redes"><p><i class="fa-brands fa-whatsapp"></i> <button>Contactar</button><i class="fa-regular fa-copy"></i> <button>Copiar</button></p></div>
+          
+          <div class="whatsapp">
+           <p> <a href="#"><i class="fa-brands fa-whatsapp logo"></i> </a> </p>
+            <h4><a href="#"> WHATSAPP: </a></h4>
+            <p><a href="#"> +54 (011) 3282-9675 </a>
+              <a href="#"> <span><i class="fa-regular fa-copy"></i></span> </a>
+            </p>
+          </div>
+          </div>
+    
+
+          <div class="redes-row">
+          <div class="instagram">
+            <p><a href="#"><i class="fa-brands fa-instagram logo"></i></a></p>
+            <h4><a href="#"> INSTAGRAM: </a></h4>
+            <p><a href="#"> @pipina.ok </a> 
+             <a href="#"> <span><i class="fa-regular fa-copy"></i></span> </a>
+            </p>
           </div>
 
-          <div class="instagram">
-            <div>
-            <h4>Instagram</h4>
-            <p>@pipina.ok</p>
-          </div>
-          <div class="btn_redes"><p><i class="fa-brands fa-instagram"></i> <button>Visitar</button> <i class="fa-regular fa-copy"></i><button>Copiar</button></p></div>
-          </div>
+        
 
           <div class="email">
-            <div>
-              <h4>Email</h4>
-              <p></i> Info@pipina.com</p>
-            </div>
-            <div class="btn_redes"><p><i class="fa-regular fa-envelope"></i> <button>Contactar</button><i class="fa-regular fa-copy"></i> <button>Copiar</button></p></div>
+            <p><a href="#"><i class="fa-regular fa-envelope logo"></i></a> </p>
+            <h4><a href="#"> EMAIL: </a></h4>
+            <p><a href="#"> Info@pipina.com </a>  
+              <a href="#"><span><i class="fa-regular fa-copy"></i></span> </a>
+              </p>
           </div>
         </div>
-
-      </div>
+       <!--  <div class="redes-logo">
+          <img src="assets/logo.png" alt="pipina">
+        </div> -->
     </section>
 
     <!-- INICIO FOOTER -->

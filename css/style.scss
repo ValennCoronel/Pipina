@@ -140,7 +140,7 @@ ul.show {
   background-color: #def9fc;
   padding: 80px 20px;
 }
-.info p{
+.subtitulo{
   font-style: italic;
 }
 .info h2{
@@ -160,6 +160,7 @@ ul.show {
   font-weight: 600;
   padding-bottom: 10px;
   display: block;
+  font-style: italic;
 }
 .info-col{
   display: flex;
@@ -170,6 +171,8 @@ ul.show {
 .info-row{
   width: 50%;
   padding: 0px 30px;
+  display: flex;
+  flex-direction: column;
   text-align: left;
 }
 
@@ -179,7 +182,10 @@ ul.show {
 }
 
 .info-txt{
-  height: 200px;
+  height: 30%;
+}
+.info-img{
+  height: 70%;
 }
 
 
@@ -229,13 +235,13 @@ margin-right: auto;
 }
 
 #mododeuso img{
-  height: 250px;
+  height: 200px;
 display: block;
 margin: 0 auto;
 }
 
 .pasos{
-  width: 40%;
+  width: 30%;
   height: 350px;
   border-radius: 10px;
   border: 5px dashed #000000;
@@ -295,7 +301,7 @@ padding: 25px;
 
 #contacto{
   background-color: white;
-  height: 650px;
+  padding: 30px;
 }
 
 .contacto-tit{
@@ -310,16 +316,16 @@ padding: 25px;
   margin-bottom: 60px;
 }
 
-.flex-container{
+.contacto-flex-container{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
 }
 
 .formulario{
   width: 50%;
   text-align: center;
-  height: 400px;
 }
 .formulario form{
   width: 60%;
@@ -327,26 +333,30 @@ padding: 25px;
   background-color: #5d95db;
   border-radius: 10px;
   box-shadow: 1px 1px 6px rgb(87, 87, 87);
+  padding: 20px;
 }
 
 form h4{
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   text-align: center;
-  padding: 20px;
+  padding: 5px;
+
+}
+form label{
+  color: white;
+  float: left;
+  font-weight: 600;
+  margin-bottom: -10px;
 }
 #nombre, #email{
-  width: 33%  ;
+  width: 100% ;
   margin: 15px 0px;
   padding: 5px;
 }
 
-#nombre{
-  margin-right: 4%;
-}
-
 #asunto{
-  width: 70% ;
+  width: 100% ;
   margin: 15px 0px;
   padding: 5px;
  
@@ -355,12 +365,12 @@ form h4{
 .formulario textarea{
   margin: 15px 0px;
   padding: 5px;
-  max-width: 70% ;
-  min-width:70%;;
+  max-width: 100% ;
+  min-width:100%;;
 
 }
 #submit{
-  width: 15%;
+  width: 20%;
   margin-bottom: 20px;
   padding: 5px;
 
@@ -370,62 +380,76 @@ form h4{
   border-radius: 4px;
 }
 
+
 .redes{
   width:50%;
   height: 400px;
+  display: flex;
+  flex-direction: column;
 }
-.whatsapp{
-  background-color: #5d95db;
+.redes-logo{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.redes-logo img{
+  height: 100%;
+  margin: 0 auto;
+}
+.redes-row{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
-  border-radius: 6px;
-  margin: 15px 0px;
-  margin-left: 5%;
-  width: 70%;
-  height: 25%;
+}
+.celular .logo{
+color: #15b3da;
+ font-size: 50px;
+ padding: 0;
+}
+.whatsapp .logo{
+ color: #15b3da;
+ font-size: 50px;
+ padding: 0;
 }
 
-.instagram{
-  background-color: #5d95db;
-  text-align: center;
-  border-radius: 6px;
-  margin: 15px 0px;
-  margin-left: 5%;
-  width: 70%;
-  height: 25%;
+.instagram .logo{
+  color: #15b3da;
+  font-size: 50px;
+  padding: 0;
 }
 
-.email{
-  background-color: #5d95db;
-  text-align: center;
-  border-radius: 6px;
-  margin: 15px 0px;
-  margin-left: 5%;
-  width: 70%;
-  height: 25%;
+.email .logo{
+  color: #15b3da;
+  font-size: 50px;
+  padding: 0;
 }
-
-.redes h4{
-  text-align: center;
+.redes h4 a{
   font-size: 20px;
-  padding: 5px;
+  color: #5d95db;
+  text-decoration: none;
+}
+.redes p a{
+  font-size: 15px;
+  color: #5d95db;
+  text-decoration: none;
+}
+.redes p span{
+  color: #5d95db;
+  border-radius: 2px;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  display: block;
 }
 
-.redes p{
-  font-size: 20px;
-  padding-bottom: 8px;
-}
 
-.btn_redes i{
-  font-size: 23px;
-  margin-right: 5px;
-}
-
-
-.btn_redes button{
-  font-size: 18px;
-  margin-right: 20px;
-  border-radius: 5px;
-}
 
 
 /* PERSONAS */
