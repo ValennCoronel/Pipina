@@ -25,7 +25,11 @@
           <li><a href="#pipina">Pipina</a></li>
           <li><a href="#mododeuso">Modo de uso</a></li>
           <li><a href="#personas">Personas</a></li>
-          <li><a href="#contacto">Contacto</a></li>
+          <li class="nav-contacto"><a href="#contacto">Contacto</a></li>
+          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-whatsapp"></i></span></a></li>
+          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-instagram"></i></span></a></li>
+          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-solid fa-envelope"></i></span></a></li>
+          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-linkedin"></i></span></a></li>
         </ul>
         <span class="btn_menu"><i class="fa-solid fa-bars"></i></span>
       </nav>
@@ -36,17 +40,10 @@
 
     <!-- INICIO HOME -->
     <section id="pipina">
-      <img src="assets/producto1.png" class="img_pipina" alt="producto" />
-
+      <div class="fondo-pipina">
+      <img src="assets/logo.png" alt="pipina"> 
       <div class="txt_pipina">
-        <h1>¿QUÉ ES PIPINA?</h1> 
-        <p>
-          Pipina es un dispositivo descartable que nos permite orinar de pie.<br />
-          Ya no mas agacharse ni colocarse en posturas incomodas. No mas
-          mojarnos, ni salpicarnos. Chau a los momentos incómodos y a aguantarse
-          las ganas de ir al baño. <br />
-          <span> Sin problemas, sin retrasos! </span>
-        </p>
+        <h2> Donde y cuando me necesites! </h2>
       </div>
     </section>
 
@@ -101,8 +98,8 @@
       <div class="info-col">
         <div class="info-row">
           <div class="info-txt">
-            <h3>Urinal Descartable</h3>
-          <span class="info-span"><p>Pipina es un urinal plegable y descartable el cual podes tener siempre al alcance de tu mano</p></span>
+            <h3>Orinal Descartable</h3>
+          <span class="info-span"><p>Pipina es un orinal plegable y descartable el cual podes tener siempre al alcance de tu mano</p></span>
           <p>Olvidate de los momentos incomodos al no poder ir a un baño en condiciones. Basta de aguantarse las ganas de orinar ocacionando dolores
             y posibles patologias futuras. Con este urinal es posible ir al baño en cualquier momento sin pasar por situaciones desagradables,
             y lo mejor, es totalmente practico y portable. Gracias a su diseño plegable siempre podes tenerlo a la mano, ya que entra tanto en la mochila o cartera
@@ -125,6 +122,21 @@
             Sumado a esto, una gran parte de la poblacion suele atravezar dificultades para orinar sentada, ya sea por dolores, discapacidades motrices, entre otras situaciones!
             Pipina llega para ayudarte a superar todos estos inconvenientes, cuida tu higiene y tu bienestar fisico al mismo tiempo, todo
             esto tan solo en un dispositivo descartable de unos pocos centimetros!
+          </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="info-col">
+        <div class="info-row">
+          <div class="info-logo">
+          <img src="assets/logo.png" alt="pipina">
+          </div>
+          <div class="info-txt-logo">
+          <p>Nuestra empresa se dedica a crear <span class="bold"> soluciones </span> a estas situaciones incomodas que atraviesan
+            la gran mayoria de las personas en el dia a dia. Con pipina ir al baño <span class="bold">nunca mas sera un problema. </span> <br>
+            La <span class="bold"> solucion </span> al alcance de tu mano. <span class="bold"> Donde y cuando la necesites! </span>
+          </p>
           </p>
           </div>
         </div>
@@ -218,6 +230,19 @@
           <p>Utiliza Pipina para orinar en  mingitorios con normalidad sin tener que pasar momentos incómodos o asistir a baños diferentes. Sentite libre y plena, sin inconvenientes!</p>
         </div>
       </div>
+      <div class="personas_col">
+        <div class="personas-row">
+          <img src="assets/niña1.jpg" alt="Ninñas">
+          <h3>PERSONAS CONVALECIENTES</h3>
+          <p>Pipina facilita la micción brindando autonomía a mujeres con poca posibilidad de movimiento, reduciendo el esfuerzo a quienes las asisten para ir al baño</p>
+        </div>
+        <div class="personas-row">
+          <img src="assets/niña1.jpg" alt="Ninñas">
+          <h3>PERSONAS TRANS</h3>
+          <p>Utiliza Pipina para orinar en  mingitorios con normalidad sin tener que pasar momentos incómodos o asistir a baños diferentes. Sentite libre y plena, sin inconvenientes!</p>
+        </div>
+      </div>
+      </div>
 
 
 
@@ -307,13 +332,13 @@
           <form action="">
             <h4>Envianos un mail!</h4>
             <label for="nombre">Nombre y apellido</label>
-            <input type="text" placeholder="Nombre" id="nombre"/>
+            <input type="text"  id="nombre"/>
             <label for="email">Email</label>
-            <input type="email" placeholder="Email" id="email"/>
+            <input type="email" id="email"/>
             <label for="asunto">Asunto</label>
-            <input type="text" placeholder="Asunto" id="asunto"/>
+            <input type="text"  id="asunto"/>
             <label for="nombre">Mensaje</label>
-            <textarea name="Mensaje" id="" cols="30" rows="10" placeholder="Mensaje" ></textarea> 
+            <textarea name="Mensaje" id="" cols="30" rows="10"  ></textarea> 
             <input type="submit"  id="submit"/>
           </form>
         </div>
@@ -365,7 +390,9 @@
     </section>
 
     <!-- INICIO FOOTER -->
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <p>Pipina 2022 © Todos los derechos reservados | Para mas informacion contactate con nosotros</p>
+    </footer>
 
 
     <!-- JS -->
