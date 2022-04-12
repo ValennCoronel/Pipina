@@ -29,7 +29,7 @@ body {
 }
 header{
     width: 100%;
-    height: 60px;
+    height: 70px;
     background-color: white;
 }
 .menu {
@@ -144,12 +144,12 @@ ul.show {
     height: 350px;
     width: 750px;
     border-radius: 30px;
-    background-color: white;
+    /* background-color: white; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 .fondo-pipina img{
