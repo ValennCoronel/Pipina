@@ -148,7 +148,7 @@
               <p> 1. Desplegar a <span class="blue">PIPINA</span></p>
           </div>
           <div class="imagen_pasos">
-            <img src="assets/paso1.png" alt="paso 1" />
+            <img src="assets/paso1d.png" alt="paso 1" class="paso1" />
           </div>
         </div>
 
@@ -157,7 +157,7 @@
              <p>2. Desabrocha tu pantalon y corre o baja tu ropa interior</p>
           </div>
           <div class="imagen_pasos">
-            <img src="assets/paso2.png" alt="paso 2" />
+            <img src="assets/paso2b.png" alt="paso 2"   class="pasosimg"/>
           </div>
         </div>
 
@@ -167,7 +167,7 @@
             <p>3. Colocar <span class="blue">PIPINA</span> cubriendo por completo los genitales</p>
         </div>
         <div class="imagen_pasos">
-          <img src="assets/paso3.png" alt="paso 3" />
+          <img src="assets/paso3.png" alt="paso 3"  class="pasosimg" />
         </div>
       </div>
 
@@ -176,7 +176,7 @@
           <p>4. Desechar <span class="blue">PIPINA</span> e higienizarse</p>
       </div>
       <div class="imagen_pasos">
-        <img src="assets/paso4.png" alt="paso 4" />
+        <img src="assets/paso4.png" alt="paso 4"  class="pasosimg"/>
       </div>
     </div>
       </div>
@@ -248,77 +248,7 @@
     </section>
 
 
-    <!-- INICIO PERSONAS -->
-   <!--  <section id="personas">
-      <h3>¿PARA QUIÉN ESTÁ DIRIGIDO?</h3> -->
-
-      <!-- BOTONES PERSONAS -->
-    <!--   <div id="slider">
-        <input type="radio" name="slider" id="s1">
-        <input type="radio" name="slider" id="s2">
-        <input type="radio" name="slider" id="s3" checked>
-        <input type="radio" name="slider" id="s4">
-        <input type="radio" name="slider" id="s5">
-        <input type="radio" name="slider" id="s6">
-        <input type="radio" name="slider" id="s7">
-
-        <label for="s1" id="slide1">
-          <img src="assets/niña.png"  width="50%">
-          <div>
-            <h4>NIÑAS</h4>
-            <p>Muchas veces por su talla se les dificulta no apoyarse en el inodoro cuando van a cumpleaños, en el colegio, en el club, o en los paseos. Con pipina esto es mucho mas facil y ibera a los padres de la preocupación y necsidad de acompañar a sus hijas.</p>
-          </div>
-        </label>
-        <label for="s2" id="slide2">
-              <img src="assets/joven.png" >
-              <div>
-                <h4>MUJERES JOVENES</h4>
-                <p>Olvídate de no tener un baño apto, ya sea en reuniones sociales, en la escuela, en el club o en cualquier actividad fuera de casa. Cuida tu salud en todo momento </p>
-              </div>
-        </label>
-        <label for="s3" id="slide3">
-              <img src="assets/mujer.png" >
-              <div>
-                <h4>MUJERES ACTIVAS</h4>
-                <p>Pipina es necesario para cualquier mujer activa, ya sea que trabajes en la calle, viajes mucho o pases mucho tiempo fuera de casa, cuida tu higiene y evitá momentos incómodos por la imposibilidad de ir al baño </p>
-              </div>
-        </label>
-        <label for="s4" id="slide4">
-              <img src="assets/mayor.png"  width="50%">
-              <div>
-                <h4>MUJERES MAYORES</h4>
-                <p>Si se te dificulta ir al baño ya que tu movilidad se encuentra reducida, Pipina es para vos! Olvídate de sufrir dolores y momentos incómodos a la hora de ir al baño</p>
-              </div>
-        </label>
-        <label for="s5" id="slide5">
-              <img src="assets/embarazada.png"  width="50%">
-              <div>
-                <h4>EMBARAZADAS</h4>
-                <p>Aumenta tu comodidad a la hora de ir al baño con Pipina. Olvídate de la incomodidad y de la imposibilidad de acomodarte debido al peso del bebe, fajas o operaciones. No más dolores, que ir a orinar no sea una complicación nunca más!</p>
-              </div>
-        </label>
-        <label for="s6" id="slide6">
-          <img src="assets/convalecientes.png"  width="50%">
-          <div>
-            <h4>PERSONAS CONVALECIENTES</h4>
-            <p> Pipina facilita la micción brindando autonomía a mujeres con poca posibilidad de movimiento, reduciendo el esfuerzo a quienes las asisten para ir al baño</p>
-          </div>
-    </label>
-    <label for="s7" id="slide7">
-      <img src="assets/trans.png"  width="50%">
-      <div>
-        <h4>MUJERES TRANS</h4>
-        <p>Utiliza Pipina para orinar en  mingitorios con normalidad sin tener que pasar momentos incómodos o asistir a baños diferentes. Sentite libre y plena, sin inconvenientes!</p>
-      </div>
-</label>
-      </div>
-      </section> -->
-
-
-
-
-
-
+  
     <!-- INICIO CONTACTO -->
     <section id="contacto">
       <div class="contacto-tit">
@@ -327,17 +257,17 @@
       </div>
       <div class="contacto-flex-container">
         <div class="formulario">
-          <form action="">
+          <form action="email.php" method="POST">
             <h4>Envianos un mail!</h4>
             <label for="nombre">Nombre y apellido</label>
-            <input type="text"  id="nombre"/>
+            <input type="text"  id="nombre" name="nombreCliente"/>
             <label for="email">Email</label>
-            <input type="email" id="email"/>
+            <input type="email" id="email" name="emailCliente"/>
             <label for="asunto">Asunto</label>
-            <input type="text"  id="asunto"/>
+            <input type="text"  id="asunto" name="asuntoCliente"/>
             <label for="nombre">Mensaje</label>
-            <textarea name="Mensaje" id="" cols="30" rows="10"  ></textarea> 
-            <input type="submit"  id="submit"/>
+            <textarea name="mensajeCliente" id="mensaje" cols="30" rows="10"  ></textarea> 
+            <button type="submit"  id="enviar" class="btn"> Dejanos tu consulta </button>
           </form>
         </div>
 
