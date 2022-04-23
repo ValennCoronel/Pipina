@@ -605,7 +605,7 @@ form h4 {
 }
 
 form label {
-  color: red;
+  color: white;
   float: left;
   font-weight: 600;
   margin-bottom: -10px;
@@ -638,11 +638,24 @@ form label {
 }
 
 .btn {
-  width: 45%;
-  height: 30px;
-  margin-bottom: 20px;
+  width: 80%;
+  height: 45px;
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 5px;
-  background: #eb94d0;
+  background-color: #8989ef;
+  border: none;
+  -webkit-box-shadow: 0 2px 4px 0 #6c6c7a, 0 1.5px 5px 0 #676774;
+          box-shadow: 0 2px 4px 0 #6c6c7a, 0 1.5px 5px 0 #676774;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 0 1px 1px 0 #6c6c7a, 0 1px 1px 0 #676774;
+          box-shadow: 0 1px 1px 0 #6c6c7a, 0 1px 1px 0 #676774;
 }
 
 /* REDES */
