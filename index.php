@@ -266,7 +266,7 @@
             <label for="asunto">Asunto</label>
             <input type="text"  id="asunto" name="asuntoCliente"/>
             <label for="nombre">Mensaje</label>
-            <textarea name="mensajeCliente" id="mensaje" cols="30" rows="10"  ></textarea> 
+            <textarea name="msjCliente" id="mensaje" cols="30" rows="10"  ></textarea> 
             <button type="submit"  id="enviar" class="btn"> Dejanos tu consulta </button>
           </form>
         </div>
