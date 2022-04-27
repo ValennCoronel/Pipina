@@ -9,10 +9,11 @@
     <!-- LINKS -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/all.min.css" />
+    <script src="https://kit.fontawesome.com/681d658237.js" crossorigin="anonymous"></script>
 
 
     <!-- TITLE -->
-    <title>Pipina</title>
+    <title>PIPINA</title>
     <link rel="icon" href="assets/favicon.png">
   </head>
 
@@ -27,10 +28,16 @@
           <li><a href="#mododeuso">Modo de uso</a></li>
           <li><a href="#personas">Personas</a></li>
           <li class="nav-contacto"><a href="#contacto">Contacto</a></li>
-          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-whatsapp"></i></span></a></li>
-          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-instagram"></i></span></a></li>
-          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-brands fa-facebook-square"></i></span></a></li>
-          <li class="nav-li-redes"><a href="#"><span class="nav-redes"><i class="fa-solid fa-envelope"></i></span></a></li>
+          <li class="nav-li-redes"><a href="https://api.whatsapp.com/send?phone=5401123922805&text=Hola!%20Quisiera%20informacion%20adicional%20del%20producto!" target="blank" ><span class="nav-redes"><i class="fa-brands fa-whatsapp"></i></span></a></li>
+          <li class="nav-li-redes"><a href="https://www.instagram.com/pipinahigiene/" target="blank" ><span class="nav-redes"><i class="fa-brands fa-instagram"></i></span></a></li>
+          <li class="nav-li-redes"><a href="https://www.facebook.com/pipinahigiene/" target="blank" ><span class="nav-redes"><i class="fa-brands fa-facebook-square"></i></span></a></li>
+          <li class="nav-li-redes"><a href="mailto:info@pipina-higiene.com" target="blank" ><span class="nav-redes"><i class="fa-solid fa-envelope"></i></span></a></li>
+          <li class="nav-li-b">
+            <a href="mailto:info@pipina-higiene.com" target="blank" ><span class="nav-redes"><i class="fa-solid fa-envelope"></i></span></a>
+            <a href="https://api.whatsapp.com/send?phone=5401123922805&text=Hola!%20Quisiera%20informacion%20adicional%20del%20producto!" target="blank" ><span class="nav-redes"><i class="fa-brands fa-whatsapp"></i></span></a>
+            <a href="https://www.instagram.com/pipinahigiene/" target="blank" ><span class="nav-redes"><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="https://www.facebook.com/pipinahigiene/" target="blank" ><span class="nav-redes"><i class="fa-brands fa-facebook-square"></i></span></a>
+          </li>
         </ul>
         <span class="btn_menu"><i class="fa-solid fa-bars"></i></span>
       </nav>
@@ -58,10 +65,10 @@
             <h3>DESCARTABLE POCKET</h3>
           <span class="info-span"><p>Una solución que vino a quedarse entre nosotras, resolviendo así una problemática milenaria y tan común para una de las necesidades fisiológicas más básicas.</p></span>
           <p> <span class="blue">PIPINA</span> es el primer dispositivo <span class="blue">POCKET</span> descartable que nos permite orinar de pie. 
-            Ya no mas agacharse ni sentadillas!!! No mas mojarnos, ni salpicarnos!!!!
+          ¡Ya no más agacharse ni sentadillas!!! ¡No más mojarnos, ni salpicarnos!!!!
             Adiós a las posturas incómodas!!! Bienvenido poder orinar sin problemas ni retrasos!!
-            Sabemos que concurrir a baños públicos, nos expone a un importante foco de infección; podemos contraer enfermedades como Shigella, Salmonella, Yersina, Campylobacter, Escherichia Coli, enfermedades diarréicas agudas, cólera, infecciones gastrointestinales, amebiasis y la disentería.
-            También estan esas bellas mujeres que sufren incontinencia, muchas veces a causa de retener por horas el deseo de ir al baño, o por ir a baños de dudosa higiene, algunos muy sucios, o incómodos  y también muchas veces por la falta de baños. 
+            Sabemos que concurrir a baños públicos, nos expone a un importante foco de infección; podemos contraer enfermedades como Shigella, Salmonella, Yersina, Campylobacter, Escherichia Coli, enfermedades diarreicas agudas, cólera, infecciones gastrointestinales, amebiasis y la disentería.
+            También están esas bellas mujeres que sufren incontinencia, muchas veces a causa de retener por horas el deseo de ir al baño, o por ir a baños de dudosa higiene, algunos muy sucios, o incómodos, y también muchas veces por la falta de baños. 
              
           </p>
           </div>
@@ -76,8 +83,8 @@
           </div>
           <div class="info-txt">
           <h3>VENTAJAS DE USAR PIPINA </h3>
-          <span class="info-span"><p>PIPINA llego para FACILITAR las salidas, CUIDAR nuestra salud y darnos LIBERTAD!!
-            Diseñado  para acompañarte en esos momentos perfectos, y felices de la la vida!!!!
+          <span class="info-span"><p>PIPINA llego para FACILITAR las salidas, CUIDAR nuestra salud y darnos LIBERTAD!
+            Diseñado  para acompañarte en esos momentos perfectos, y felices de la vida!
             </p></span>
           <p>Sirve para cuando hacemos deporte, cuando estamos al aire libre, cuando viajamos en avión, barco, tren, cuando vamos a recitales, bares, discotecas, al club, cuando salimos a realizar trámites, cuando tenemos puestos de trabajo sin acceso fácil a baños.
             Para tus salidas a la naturaleza, para todas tus actividades fuera de la higiene de tu hogar, permitiéndote dejar atrás el estrés de no saber cómo resolver si te dan ganas de ir al baño.
@@ -91,12 +98,12 @@
     </section>
     <section class="caracteristicas">
       <p class="subtitulo2"></p>
-      <h2 class="tit-caract">Caracteristicas de PIPINA</h2>
+      <h2 class="tit-caract">Características de PIPINA</h2>
 
       <div class="info-col">
         <div class="caract-row">
         <ul>
-          <li><span class="blue">PIPINA</span> tiene un diseño ergonómico que permite que su forma se adapte perfectamente a tu cuerpo, logrando un sellado fiable, evitando fugas de orina, salpicaduras o desborde, de esta manera podes orinar sin necesidad de bajar tus pantalones.</li>
+          <li><span class="blue">PIPINA</span> tiene un diseño ergonómico que permite que su forma se adapte perfectamente a tu cuerpo, logrando un sellado fiable, evitando fugas de orina, salpicaduras o desborde, de esta manera podés orinar sin necesidad de bajar tus pantalones.</li>
           <li>Es descartable, evitando así tener que guardarlo  para su futura higiene como los conocidos de siliconas.</li>
           <li>Impermeable para su único uso, no tiene filtraciones en todo su circuito.</li>
           <li>Soporta alto caudal de líquido.</li>
@@ -109,13 +116,13 @@
         </ul>
         </div>
         <div class="caract-row2">
-          <img src="assets/producto1.png" alt="">
+          <img src="assets/pipina3.png" alt="pipina">
         </div>
 
       </div>
 
-      <div class="info-col">
-        <div class="info-row">
+      <div class="info-col-logo">
+      
           <div class="info-logo">
           <img src="assets/logob.png" alt="pipina">
           </div>
@@ -127,7 +134,7 @@
           </p>
           </p>
           </div>
-        </div>
+      
       </div>
 
 
@@ -154,13 +161,12 @@
 
         <div class="pasos">
           <div class="icono_pasos">
-             <p>2. Desabrocha tu pantalon y corre o baja tu ropa interior</p>
+             <p>2. Desabrocha tu pantalón y corre o baja tu ropa interior</p>
           </div>
           <div class="imagen_pasos">
             <img src="assets/paso2b.png" alt="paso 2"   class="pasosimg"/>
           </div>
         </div>
-
 
         <div class="pasos">
           <div class="icono_pasos">
@@ -189,56 +195,57 @@
       <p>Personas</p>
       <h2>A quién beneficia <span class="bold">PIPINA</span></h2>
     </div>
+
       <div class="personas_col">
         <div class="personas-row">
-          <img src="assets/Niña.png" alt="Ninñas">
+          <img src="assets/nena.png" alt="Ninñas">
           <h3>NIÑAS</h3>
-          <p>Las peques que por su talla, la mayoría de las veces su vulva roza el asiento, y eso les dificulta encontrar una posición adecuada para no apoyarse. Te resuelve la preocupación cuando van a cumpleaños, en el colegio, en el club, o en los paseos. Liberando a los padres también del  acompañamiento.
+          <p>Las peques que por su talla, la mayoría de las veces su vulva, roza el asiento, y eso les dificulta encontrar una posición adecuada para no apoyarse. Te resuelve la preocupación cuando van a cumpleaños, en el colegio, en el club, o en los paseos. Liberando a los padres también del  acompañamiento.
           </p>
         </div>
         <div class="personas-row">
-          <img src="assets/Mujer joven.png" alt="Ninñas">
+          <img src="assets/Mujer joven.png" alt="mujer joven">
           <h3>MUJERES JOVENES</h3>
-          <p>Cuando comenzas a disfrutar solas de nuestras propias reuniones sociales. Cuando vamos a la escuela, en las actividades fueras de casa, en el club, en todas nuestras salidas.</p>
+          <p>Cuando comenzás a disfrutar solas de nuestras propias reuniones sociales. Cuando vamos a la escuela, en las actividades fueras de casa, en el club, en todas nuestras salidas.</p>
         </div>
         <div class="personas-row">
-          <img src="assets/Mujer activa.png" alt="Ninñas">
+          <img src="assets/Mujer activa.png" alt="Mujer activa">
           <h3>MUJERES ACTIVAS</h3>
           <p>Todas aquellas mujeres que están en permanente movimiento.
             Para aquellas que trabajan en las fuerzas, y en cargos de calle. Para aquellas emprendedoras que trabajan en ferias, en puestos callejeros, etc. En la facultad. En tus salidas sociales, en tus vacaciones
             </p>
         </div>
-      </div>
-      <div class="personas_col">
+      
+     
         <div class="personas-row">
-          <img src="assets/Mujer madura.png" alt="Ninñas">
+          <img src="assets/Mujer madura.png" alt="Mujer madura">
           <h3>MUJERES MADURAS</h3>
           <p>Son las damas, que en este momento de la vida, pueden aparecer los inconvenientes de incontinencia o prolapso y comienza a afectar  la toma de decisiones para las salidas y actividades fuera del hogar. </p>
         </div>
         <div class="personas-row">
-          <img src="assets/Mujer mayor.png" alt="Ninñas">
+          <img src="assets/Mujer mayor.png" alt="Mujer mayor">
           <h3>MUJERES MAYORES</h3>
           <p>Ellas ya no pueden usar la posición de sentadilla o en puntas de pie y se ven obligadas a apoyarse en los asientos de inodoros o tener que usar apósitos de contención al aire libre.</p>
         </div>
         <div class="personas-row">
-          <img src="assets/Mujer embarazada.png" alt="Ninñas">
+          <img src="assets/Mujer embarazada.png" alt="Embarazada">
           <h3>EMBARAZADAS</h3>
-          <p>Ellas, que en su mayor estadío no pueden acomodarse en el cubículo del baño, no pueden utilizar la posición de sentadilla, o te dan ganas de repente por el peso del bebé.</p>
-        </div>
-      </div>
-      <div class="personas_col">
-        <div class="personas-row">
-          <img src="assets/Mujer convaleciente.png" alt="Ninñas">
+          <p>Ellas, que en su mayor estado no pueden acomodarse en el cubículo del baño, no pueden utilizar la posición de sentadilla, o te dan ganas de repente por el peso del bebé.</p>
+        </div>    
+        <div class="personas-row personasx1">
+          <img src="assets/Mujer convaleciente.png" alt="Convaleciente">
           <h3>PERSONAS CONVALECIENTES</h3>
           <p> <span class="bold">PIPINA </span> te facilita la micción brindando autonomía a mujeres con poca posibilidad de movimiento y también reduce el esfuerzo a quienes las asisten para ir al baño.
-            Cuando estas operada, cuando usas faja y se hace engorroso poder sentarte en el inodoro.
+            Cuando estás operada, cuando usas faja y se hace engorroso poder sentarte en el inodoro.
             </p>
         </div>
-        <div class="personas-row">
-          <img src="assets/trans.png" alt="Ninñas">
+        <div class="personas-row personasx2">
+          <img src="assets/trans.png" alt="Trans">
           <h3>CHICAS TRANS</h3>
           <p>Les permite utilizar los mingitorios como su normalidad.</p>
         </div>
+
+
       </div>
       </div>
 
@@ -266,7 +273,7 @@
             <label for="asunto">Asunto</label>
             <input type="text"  id="asunto" name="asuntoCliente"/>
             <label for="nombre">Mensaje</label>
-            <textarea name="msjCliente" id="mensaje" cols="30" rows="10"  ></textarea> 
+            <textarea name="msjCliente" id="msjCliente" cols="30" rows="10"  ></textarea> 
             <button type="submit"  id="enviar" class="btn"> Dejanos tu consulta </button>
           </form>
         </div>
@@ -276,18 +283,18 @@
           <div class="redes-row">
 
           <div class="celular">
-            <p> <a href="#"> <i class="fa-solid fa-phone logo"></i> </a> </p>
-             <h4><a href="#"> TELEFONO:</a></h4>
-             <p><a href="#"> +54 (011) 3282-9675 </a> 
-              <a href="#"><span><i class="fa-regular fa-copy"></i></span> </a> 
+            <p> <a href="tel: +5401123922805"> <i class="fa-solid fa-phone logo"></i> </a> </p>
+             <h4><a href="tel: +5401123922805"> TELEFONO:</a></h4>
+             <p><a href="tel: +5401123922805"> +54 (011) 2392-2805 </a> <br>
+              <button class="copy" onclick="copiarPapelera('#num')">Copiar <i class="fa-regular fa-copy"></i> </button> 
             </p>
           </div>
           
           <div class="whatsapp">
-           <p> <a href="#"><i class="fa-brands fa-whatsapp logo"></i> </a> </p>
-            <h4><a href="#"> WHATSAPP: </a></h4>
-            <p><a href="#"> +54 (011) 3282-9675 </a>
-              <a href="#"> <span><i class="fa-regular fa-copy"></i></span> </a>
+           <p> <a href="https://api.whatsapp.com/send?phone=5401123922805&text=Hola!%20Quisiera%20informacion%20adicional%20del%20producto!" target="blank" ><i class="fa-brands fa-whatsapp logo"></i> </a> </p>
+            <h4><a href="https://api.whatsapp.com/send?phone=5401123922805&text=Hola!%20Quisiera%20informacion%20adicional%20del%20producto!" target="blank" > WHATSAPP: </a></h4>
+            <p><a href="https://api.whatsapp.com/send?phone=5401123922805&text=Hola!%20Quisiera%20informacion%20adicional%20del%20producto!" target="blank"  id="num"> +54 (011) 2392-2805 </a> <br>
+              <button class="copy" onclick="copiarPapelera('#num')">Copiar <i class="fa-regular fa-copy"></i> </button>
             </p>
           </div>
           </div>
@@ -295,31 +302,29 @@
 
           <div class="redes-row">
           <div class="instagram">
-            <p><a href="#"><i class="fa-brands fa-instagram logo"></i></a></p>
-            <h4><a href="#"> INSTAGRAM: </a></h4>
-            <p><a href="#"> @pipina.ok </a> 
-             <a href="#"> <span><i class="fa-regular fa-copy"></i></span> </a>
+            <p><a href="https://www.instagram.com/pipinahigiene/" target="blank" ><i class="fa-brands fa-instagram logo"></i></a></p>
+            <h4><a href="https://www.instagram.com/pipinahigiene/" target="blank" > INSTAGRAM: </a></h4>
+            <p><a href="https://www.instagram.com/pipinahigiene/"  target="blank" id="ig"> @pipina-higiene </a> <br>
+             <button class="copy" onclick="copiarPapelera('#ig')"> Copiar <i class="fa-regular fa-copy"></i> </button>
             </p>
           </div>
 
         
 
           <div class="email">
-            <p><a href="#"><i class="fa-regular fa-envelope logo"></i></a> </p>
-            <h4><a href="#"> EMAIL: </a></h4>
-            <p><a href="#"> Info@pipina.com </a>  
-              <a href="#"><span><i class="fa-regular fa-copy"></i></span> </a>
+            <p><a href="mailto:info@pipina-higiene.com" target="blank" ><i class="fa-regular fa-envelope logo"></i></a> </p>
+            <h4><a href="mailto:info@pipina-higiene.com" target="blank" > EMAIL: </a></h4>
+            <p><a href="mailto:info@pipina-higiene.com"  target="blank" id="email"> Info@pipina-higiene.com.ar </a>  <br>
+              <button class="copy" onclick="copiarPapelera('#email')">Copiar <i class="fa-regular fa-copy"></i> </button> 
               </p>
           </div>
         </div>
-       <!--  <div class="redes-logo">
-          <img src="assets/logo.png" alt="pipina">
-        </div> -->
+        </div>
     </section>
 
     <!-- INICIO FOOTER -->
     <footer id="footer">
-      <p>Pipina 2022 © Todos los derechos reservados | Para mas informacion contactate con nosotros</p>
+      <p>Pipina 2022 © Todos los derechos reservados | Para más información contactate con nosotros</p>
     </footer>
 
 

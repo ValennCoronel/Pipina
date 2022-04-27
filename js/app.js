@@ -26,4 +26,15 @@ $(window).scroll(function () {
       $(".menu").css({ "box-shadow": "0px 0px 0px" });
     }
   });
+
+  /* COPIAR AL PORTAPAPELES */
+
+  function copiarPapelera(elemento) {
+    var $temp = $("<input>")
+    $("body").append($temp);
+    $temp.val($(elemento).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+  };
+  
   
